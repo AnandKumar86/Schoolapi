@@ -10,9 +10,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-     host: 'sql12.freesqldatabase.com', // Ensure this is correct
-  user: 'sql12750408',                // Ensure this is correct and has no leading/trailing spaces
-  password: 'LZ7N36YgxM',          // Your database password
+     host: 'sql12.freesqldatabase.com', 
+  user: 'sql12750408',            
+  password: 'LZ7N36YgxM',          
   database: 'sql12750408'
 });
 
