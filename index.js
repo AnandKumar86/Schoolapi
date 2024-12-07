@@ -9,20 +9,16 @@ const port = 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
-
 const db = mysql.createConnection({
-  host: 'sql12.freesqldatabase.com', // Ensure this is correct
+     host: 'sql12.freesqldatabase.com', // Ensure this is correct
   user: 'sql12750408',                // Ensure this is correct and has no leading/trailing spaces
   password: 'LZ7N36YgxM',          // Your database password
-  database: 'sql12750408'      // Your database name
+  database: 'sql12750408'
 });
 
-db.connect((err) => {
-  if (err) {
-    console.error('Error connecting: ' + err.stack);
-    return;
-  }
-  console.log('Connected as id ' + connection.threadId);
+db.connect(err => {
+    if (err) throw err;
+    console.log('MySQL connected...');
 });
 
 
