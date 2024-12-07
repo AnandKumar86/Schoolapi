@@ -11,10 +11,10 @@ app.use(bodyParser.json());
 
 
 const db = mysql.createConnection({
-   host:'sql200.infinityfree.com',
-  user:'if0_37867061',
-  password:'tRHA10bEfydsp',
-  database:'if0_37867061_school_management',
+   host:' sql12.freesqldatabase.com',
+  user:' sql12750408',
+  password:'LZ7N36YgxM',
+  database:'sql12750408',
   
    
 });
