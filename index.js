@@ -11,14 +11,11 @@ app.use(bodyParser.json());
 
 
 const db = mysql.createConnection({
-   host: '127.0.0.1',
-  user: 'root',
-  password: '',
-  database: 'school_management',
-  port: 3306,
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0
+   host: 'sql200.infinityfree.com',
+  user: 'if0_37867061',
+  password: 'tRHA10bEfydsp',
+  database: 'if0_37867061_school_management',
+  
    
 });
 
