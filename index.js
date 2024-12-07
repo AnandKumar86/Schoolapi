@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 
 const db = mysql.createConnection({
-   host:' sql12.freesqldatabase.com',
+ host: 'sql12.freesqldatabase.com',
   user:' sql12750408',
   password:'LZ7N36YgxM',
   database:'sql12750408',
